@@ -8,7 +8,7 @@ int main(){
 	printf("Enter Your Marks :");
 	scanf("%d",&score);
 	
-//Step-1 Ternary Statement
+	/Step-1 Ternary Statement
 	
 	if (score>100){
 		printf("Invalid Marks");
@@ -30,7 +30,7 @@ int main(){
 						grade;
 	printf("Your grade is %c\n",grade);
 	
-//Step-2 Switch Statement
+	//Step-2 Switch Statement
 	
 	switch(grade){
 		
@@ -51,7 +51,7 @@ int main(){
 			break;
 	}
 	
-//step-3 if-else Statement
+	//step-3 if-else Statement
 	
 	if(grade!='F'){
 		
